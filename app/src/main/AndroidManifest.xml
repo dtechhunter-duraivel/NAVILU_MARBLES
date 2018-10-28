@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.duraivel.fireapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icona"
+        android:label="NAVILU MARBLES"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ItemsList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QRScanner"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".IndexPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SearchType"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AppCentralizedControl2"
+            android:screenOrientation="portrait" />
+        <activity android:name=".AppCentralizedControl" android:screenOrientation="portrait" />
+        <activity android:name=".ItemDetails" android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

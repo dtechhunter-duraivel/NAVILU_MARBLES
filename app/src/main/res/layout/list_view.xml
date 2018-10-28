@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="70dp"
+    android:background="@drawable/list_selector"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip"
+        android:orientation="vertical"
+        android:padding="3dip">
+
+        <TextView
+            android:id="@+id/TextFirst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Prouduct Name"
+            android:textColor="#040404"
+            android:textSize="15dip"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/TextSecond"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TextSecond"
+
+            android:layout_marginLeft="10dp"
+            android:text="Brand"
+            android:textColor="#343434"
+            android:textSize="12dip" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/arrow"
+        android:layout_alignParentEnd="true"
+        />
+
+
+</RelativeLayout>

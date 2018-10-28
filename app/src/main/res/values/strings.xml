@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">fireapp</string>
+
+    <integer name="slide_animation_duration">180</integer>
+    <string name="title_activity_main4">Main4Activity</string>
+    <string name="title_activity_main6">Main6Activity</string>
+</resources>
